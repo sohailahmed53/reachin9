@@ -1,0 +1,95 @@
+/* src/Pages/LoginPage.css */
+
+body, html {
+    margin: 0;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+    background-color: #000;
+  }
+  
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    max-width: 1440px;
+    margin: 0 auto;
+    color: white;
+    /* padding: 100px; */
+  }
+  
+  .header, .footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #2D2D2D;
+  }
+  
+  .header img {
+    height: 28px;
+  }
+  
+  .login-box {
+    background-color: #111214;
+    border: 1px solid #4A4A4A;
+    border-radius: 16px;
+    padding: 24px;
+    width: 460px;
+    text-align: center;
+  }
+  
+  .login-box p {
+    margin: 0;
+    margin-bottom: 24px;
+  }
+  
+  .login-box .google-signin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #4A4A4A;
+    border-radius: 6px;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-box .google-signin:hover {
+    background-color: #1F1F1F;
+  }
+  
+  .login-box .google-signin img {
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .login-box .create-account-btn {
+    background-color: #4B63DD;
+    color: white;
+    border-radius: 6px;
+    padding: 12px;
+    margin-bottom: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-box .create-account-btn:hover {
+    background-color: #3A4FBB;
+  }
+  
+  .footer p {
+    color: #666;
+    font-size: 12px;
+  }
+
+  .google-signin img {
+    margin-right: 8px; 
+  }
+  
+  
+  .google-signin {
+    margin-bottom: 24px; 
+    color: white;
+  } 
